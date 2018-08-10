@@ -620,6 +620,15 @@ footer.main-footer p.social a {
   transition: all 0.3s;
 }
 
+
+footer.main-footer p.social a.contacticon {
+  background-color: #eadeed;
+}
+
+footer.main-footer p.social a:hover.contacticon {
+  background-color: #9055A2
+}
+
 footer.main-footer p.social a.facebook {
   background-color: #4460ae;
 }
