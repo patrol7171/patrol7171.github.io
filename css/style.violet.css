@@ -137,7 +137,7 @@ nav.navbar .navbar-brand {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 700;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Pacifico', cursive !important;
 }
 
 nav.navbar a.nav-link {
