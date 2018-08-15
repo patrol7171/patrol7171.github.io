@@ -622,28 +622,14 @@ footer.main-footer p.social a {
 
 
 footer.main-footer p.social a.contacticon {
-  background-color: #593564;
+  background-color: #3b2343;
 }
 
 footer.main-footer p.social a:hover.contacticon {
   background-color: #9055A2
 }
 
-footer.main-footer p.social a.facebook {
-  background-color: #4460ae;
-}
 
-footer.main-footer p.social a.gplus {
-  background-color: #c21f25;
-}
-
-footer.main-footer p.social a.instagram {
-  background-color: #cd4378;
-}
-
-footer.main-footer p.social a.email {
-  background-color: #4a7f45;
-}
 
 footer.main-footer p {
   margin: 0;
