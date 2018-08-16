@@ -140,7 +140,7 @@ nav.navbar .navbar-brand {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 700;
-  font-family: 'Pacifico', cursive !important;
+  font-family: "Roboto Slab", serif;
 }
 
 nav.navbar a.nav-link {
@@ -210,6 +210,10 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   box-shadow: 0 5px 15px #FFF;
   padding: 0em .25em;
   margin: 15%;
+}
+
+#text_wrapper h1 {
+  font-family: 'Pacifico', cursive !important;
 }
 
 /*
