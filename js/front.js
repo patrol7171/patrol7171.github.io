@@ -142,7 +142,7 @@ $(function () {
     function openReference(sliderContent) {
         $('#detail').slideDown();
         $('#references-masonry').slideUp();
-
+		$('#proj-filter').hide();
 
         if (sliderContent !== '') {
 
@@ -166,6 +166,8 @@ $(function () {
     function closeReference() {
         $('#references-masonry').slideDown();
         $('#detail').slideUp();
+		$('#proj-filter').show();
+		
     }
 
     $('#filter button, #detail .close').on('click', function () {
