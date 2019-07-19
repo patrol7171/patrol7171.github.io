@@ -99,11 +99,10 @@ $(function () {
         $(this).parent('li').addClass('active');
 
         var categoryToFilter = $(this).attr('data-filter');
-		var dc = $(this).attr('data-category');
 
         $('.reference-item').each(function () {
 
-            if ($(this).data('category') === categoryToFilter || categoryToFilter === 'all' || $(this).data('category').indexOf(dc) > 1) {
+            if ($(this).data('category') === categoryToFilter || categoryToFilter === 'all') {
                 $(this).show();
             } else {
                 $(this).hide();
