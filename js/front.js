@@ -98,17 +98,20 @@ $(function () {
         $('#filter li').removeClass('active');
         $(this).parent('li').addClass('active');
 
-        var categoryToFilter = $(this).attr('data-filter');
+		var categoryToFilter = $(this).attr('data-filter');
 		var dc = $(this).attr('data-category');
 
-        $('.reference-item').each(function () {
-
-            if ($(this).data('category') === categoryToFilter || categoryToFilter === 'all' || $(this).data('category').indexOf(dc) < 0) {
-                $(this).show();
-            } else {
-                $(this).hide();
-            }
-        });
+		if(categoryToFilter === 'all') {
+		  $('.reference-item').show();
+			return;
+		 }
+		$('.reference-item').each(function () {
+			if ($(this).attr('data-category').indexOf(dc) < 0) {
+				$(this).hide();
+			} else {
+				$(this).show();
+			}
+		});
 
     });
 
