@@ -103,7 +103,7 @@ $(function () {
 
         $('.reference-item').each(function () {
 
-            if ($(this).data('category') === categoryToFilter || categoryToFilter === 'all' || $(this).data('category').indexOf(dc) > 1) {
+            if ($(this).data('category') === categoryToFilter || categoryToFilter === 'all' || $(this).data('category').indexOf(dc) < 0) {
                 $(this).show();
             } else {
                 $(this).hide();
