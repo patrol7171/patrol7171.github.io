@@ -278,6 +278,16 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   font-size: 0.9rem;
 }
 
+ul.skills-list {
+	list-style-position: outside;
+	list-style-type: circle;
+}
+
+.skills-text {
+	text-align: left;
+}
+
+
 /*
 *
 * ====================================================
