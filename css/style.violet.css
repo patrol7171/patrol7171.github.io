@@ -302,7 +302,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 ul.skills-list {
 	list-style-position: outside;
 	list-style-type: circle;
-	padding-left: 100px;
+	padding-left: 125px;
 }
 
 .skills-text {
