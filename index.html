@@ -150,7 +150,30 @@
 	
     <!-- Parallax Section -->
     <section id="statistics" data-dir="up" style="background: url(img/parallax.jpg);" class="statistics-section text-white parallax parallax">
-      <div class="container"></div>
+      <div class="container">
+	  <!--
+	    <div class="row showcase text-center"> 
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-4">
+            <div class="item">
+              <div class="icon"><img src="img/" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+              <h5 class="text-400 mt-4 text-uppercase">December 2019</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-4">
+            <div class="item">
+              <div class="icon"><img src="img/" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+              <h5 class="text-400 mt-4 text-uppercase">November 2019</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-4">
+            <div class="item">
+              <div class="icon"><img src="img/" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+              <h5 class="text-400 mt-4 text-uppercase">October 2019</h5>
+            </div>
+          </div>
+        </div>
+	  -->
+	  </div>
       <div class="dark-mask"></div>
     </section>
 	
@@ -200,8 +223,8 @@
 							<a href="https://hr-portal2.herokuapp.com/" target='_blank' class="btn btn-outline-primary"><i class="fa fa-globe"></i> Go To Website</a>
 							<a href="https://github.com/patrol7171/HR-Dashboard2" target='_blank' class="btn btn-outline-primary"><i class="fa fa-code"></i> Go To Code</a>						
 						</p>
-                        <p>This Django web app is a data analytics portal prototype for the HR Department of Dental Magic, Inc. -- a fictitious company based in Boston, MA, that offers both dental services and dental-related products.</p>
-                        <p>The site mimics an "internal-only" utility that showcases data queried from the database of another application. The portal interfaces vary based on employee type (Management or Associate). Dataset sources for most of the HR information came from <a href="https://www.kaggle.com/rhuebner/human-resources-data-set" target='_blank'>Kaggle.com</a>.</p>
+                        <p>This Django web app is a data analytics portal prototype for the HR Department of Dental Magic, Inc. -- a fictitious company based in Boston, MA, that offers both dental services and dental-related products. The site mimics an "internal-only" utility that showcases data queried from the database of another application. </p>
+                        <p>Two APIs (Geocodio and Mapbox) are consumed for the data visualizations involving locations. The portal interfaces vary based on employee type (Management or Associate). Dataset sources for most of the HR information came from <a href="https://www.kaggle.com/rhuebner/human-resources-data-set" target='_blank'>Kaggle.com</a>.</p>
 						<table class="table table-sm">
 							<tr>
 							  <th scope="row">Front-End Development:</th>
@@ -231,34 +254,33 @@
                       </div>
                     </div>
                   </div>
-
-<!-- 				  
+			  
                   <div data-category="django" class="reference-item col-lg-3 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/codingvidz_img.PNG" alt="" class="img-fluid">
+                    <div class="reference"><a href="#"><img src="img/nfp_app_img.png" alt="" class="img-fluid">
                         <div class="overlay">
                           <div class="inner">
-                            <h3 class="h4 reference-title">YouTube Coding Video Favorites</h3>
-                            <p>Favorite YouTube "How To" videos for programmers...</p>
+                            <h3 class="h4 reference-title">My Weather Forecaster</h3>
+                            <p>Weather forecasts by location courtesy of NOAA...</p>
                           </div>
                         </div></a>
-                      <div data-images="img/codingvidz_img2.PNG" class="sr-only reference-description">
+                      <div data-images="img/nfp_app_img2.png" class="sr-only reference-description">
                         <p class="buttons text-center">
-							<a href="https://codingvidz-project.herokuapp.com/" target='_blank' class="btn btn-outline-primary"><i class="fa fa-globe"></i> Go To Website</a>
-							<a href="https://github.com/patrol7171/codingvidz-project" target='_blank' class="btn btn-outline-primary"><i class="fa fa-code"></i> Go To Code</a>							
+							<a href="https://nfp-app.azurewebsites.net/" target='_blank' class="btn btn-outline-primary"><i class="fa fa-globe"></i> Go To Website</a>
+							<a href="https://github.com/patrol7171/NOAA-Forecast-Project" target='_blank' class="btn btn-outline-primary"><i class="fa fa-code"></i> Go To Code</a>							
 						</p>					  
-                        <p>This site serves as a unique repository for cool and helpful "how-to" videos involving programming-related topics associated with building applications using Python. It also allows other users to "sign up" and create their own video groups for reference and/or to share with the coding community. An "admin" utility is incorporated within the site for administration purposes.</p>
+                        <p>This site provides 5-day weather forecasts based on the location of the user.  Users that register have the ability to personalize weather forecasts by providing  up to 5 US locations (zipcodes) of their choice. One unique aspect to point out about this NOAA API is that it outputs XML data which is parsed using Python (ElementTree). An "admin" utility is also incorporated within the site for administration purposes.</p>
 						<table class="table table-sm">
 							<tr>
 							  <th scope="row">Front-End Development:</th>
-							  <td>HTML5, CSS3, Bootstrap 4, JQuery, Javascript</td>
+							  <td>HTML5, CSS3, Bootstrap 4, Javascript</td>
 							</tr>
 							<tr>
 							  <th scope="row">Back-End Development:</th>
-							  <td>Python v3.6, Javascript</td>
+							  <td>Python v3.7</td>
 							</tr>
 							<tr>
-							  <th scope="row">Data Storage (Database):</th>
-							  <td>PostgreSQL</td>
+							  <th scope="row">Data Storage:</th>
+							  <td>Azure DB - PostgreSQL, Azure Blob Storage</td>
 							</tr>
 							<tr>
 							  <th scope="row">Website Framework:</th>
@@ -266,17 +288,16 @@
 							</tr>
 							<tr>
 							  <th scope="row">Host Server:</th>
-							  <td>Heroku</td>
+							  <td>Azure</td>
 							</tr>
 							<tr>
 							  <th scope="row">Other Technologies Used:</th>
-							  <td>Visual Studio Code, YouTube Data API</td>
+							  <td>NOAA's National Weather Service Forecast API, Ipstack.com API, Google Maps API, Azure App Service, ElementTree, Visual Studio Code</td>
 							</tr>	
 						</table>
                       </div>
                     </div>
                   </div>
- -->
 				  
                   <div data-category="flask" class="reference-item col-lg-3 col-md-6">
                     <div class="reference"><a href="#"><img src="img/hr_web_img.PNG" alt="" class="img-fluid">
@@ -315,7 +336,7 @@
 							</tr>							
 							<tr>
 							  <th scope="row">Other Technologies Used:</th>
-							  <td>Visual Studio Code, SQLAlchemy, Celery, Matplotlib, Seaborn, Forismatic API, API2PDF, Redis</td>
+							  <td>SQLAlchemy, Celery, Matplotlib, Seaborn, Forismatic API, API2PDF, Redis, Visual Studio Code</td>
 							</tr>	
 						</table>
                       </div>
@@ -357,7 +378,7 @@
                     </div>
                   </div>
 
-<!--				  
+				<!--				  
                   <div data-category="flask" class="reference-item col-lg-3 col-md-6">
                     <div class="reference"><a href="#"><img src="img/mlcc_web_img.PNG" alt="" class="img-fluid">
                         <div class="overlay">
@@ -401,7 +422,7 @@
                       </div>
                     </div>
                   </div> 
--->
+				 -->
 				  			  
                   <div data-category="analysis" class="reference-item col-lg-3 col-md-6">
                     <div class="reference"><a href="#"><img src="img/mach_learn_exp_img.PNG" alt="" class="img-fluid">
